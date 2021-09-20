@@ -11,36 +11,32 @@ p {
     font-size: .8rem;
 }
 
-a {
-    padding: 10px;
-}
-
 #header-img {
-    display: inline-flex;
     height: 50px;
 }
 
 #header-menu {
-    display: inline-flex;
-    align-items: center;
+    display: block;
     margin-left: auto;
-    order: 2;
+    margin-right: 30px;
     min-width: fit-content;
-    align-content: center;
 }
 
 .header-container {
     background-color: black;
-    position:fixed;
+    position: fixed;
     opacity: 0.9;
     display: flex;
     align-items: center;
+    margin: 0px 10px;
     width: 100%;
     height: 69px;
     border-bottom: 1px solid seashell;
+    z-index: 1;
 }
 
 .container {
+    padding-top: 69px;
     display:flex;
     height: 700px;
     background-image: url('media/img-mission-background.jpg');
@@ -48,21 +44,17 @@ a {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .container-2 {
-    
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding-top: 20px;
 }
 
 .container-3 {
     min-height: 500px;
     margin-top: 70px;
-    margin: 30px 30px 0px;
+    margin: 60px 10px 0px;
     background-image: url('media/img-locations-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +74,7 @@ a {
 }
 
 .footer {
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     justify-content: left;
     align-items: center;
